@@ -11,6 +11,6 @@ public class Triangle {
 		int side3 = Integer.parseInt(args[2]);
 		boolean triangle;
 		triangle = ((side1+side2) > side3 && (side1+side3) > side2 && (side2 + side3) > side1);
-		System.out.println(side1 + ", " + ", " + side2 + ", " + side3 + ": " + triangle);
+		System.out.println(side1 + ", "  + side2 + ", " + side3 + ": " + triangle);
 	}
 }
