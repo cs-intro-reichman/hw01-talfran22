@@ -3,6 +3,7 @@ public class AddTwo {
 		int x = Integer.parseInt(args[0]);
 		int y = Integer.parseInt(args[1]);
 		// #Feedback: better to not do calculation in print commands
-		System.out.println(x + " + " + y + " = " + (x + y));
+		int sum = x + y;
+		System.out.println(x + " + " + y + " = " + sum);
 	}
 }
