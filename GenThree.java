@@ -14,11 +14,11 @@ public class GenThree {
 		int num3 = (int)(Math.random() * range) + min;
 		// #Feedback 1: give meaningfult names to variables
 		// #Feedback 2: you can use the same variable twice, since anyway you need only the min of all 3 nums.
-		int min = Math.min(num1, num2);
-		min = Math.min(min, num3);
+		int minOfAll = Math.min(num1, num2);
+		minOfAll = Math.min(min, num3);
 		System.out.println(num1);
 		System.out.println(num2);
 		System.out.println(num3);
-		System.out.println("The minimal generated number was " + min);
+		System.out.println("The minimal generated number was " + minOfAll);
 	}
 }
