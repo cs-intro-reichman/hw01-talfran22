@@ -15,7 +15,7 @@ public class GenThree {
 		// #Feedback 1: give meaningfult names to variables
 		// #Feedback 2: you can use the same variable twice, since anyway you need only the min of all 3 nums.
 		int minOfAll = Math.min(num1, num2);
-		minOfAll = Math.min(min, num3);
+		minOfAll = Math.min(minOfAll, num3);
 		System.out.println(num1);
 		System.out.println(num2);
 		System.out.println(num3);
